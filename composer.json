@@ -9,7 +9,7 @@
     "homepage": "https://github.com/jeop10/laravel-dashboard-reddit-tile",
     "license": "MIT",
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8",
         "spatie/laravel-dashboard": "^2.0"
     },
     "require-dev": {
