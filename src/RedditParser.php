@@ -51,6 +51,7 @@ class RedditParser
 
                     $this->posts[] = [
                         'author' => $data->author,
+                        'url' => $data->url,
                         'image' => $this->checkThumbNails($data),
                         'title' => $data->title,
                         'score' => $this->convertNumber($data->score),
